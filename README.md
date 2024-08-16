@@ -1,4 +1,6 @@
 # CSPLIT.C
+![image of csplit running](https://github.com/jthro/csplit/blob/main/csplit.png)
+
 A simple terminal split timer written in C.
 
 Motivation: I was going to do an exam practice and realized I didn't have a nice split timer, and writing one would probably be good practice.

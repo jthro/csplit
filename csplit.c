@@ -30,6 +30,9 @@ int main(int argc, char *argv[]) {
     printf(" q | quit\n");
     printf(" s | new split\n");
     exit(EXIT_SUCCESS);
+  } else {
+    printf("Usage: csplit [--help]");
+    exit(EXIT_SUCCESS);
   }
   // Initialize new terminal settings and save old
   struct termios *original_term = initialize_term();
